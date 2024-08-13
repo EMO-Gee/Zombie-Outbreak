@@ -1,6 +1,7 @@
 Group name: Out-Breakers
 Group members: Fortune Rowan
                Maringa Nkateko
+               Chavalala Enelo
                Xhegwana Mihle
                Mokaloba Thabisile
 
