@@ -8,4 +8,4 @@ Group mentor: Amogelang Mphela
 
 Project title: Zombie-OutBreake
 
-Project page:https://github.com/EMO-Gee/Zombie-Outbreak.git
+Project page: https://github.com/EMO-Gee/Zombie-Outbreak.git
