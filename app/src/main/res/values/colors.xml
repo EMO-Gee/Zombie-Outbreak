@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="magenta">#FF09FF</color>
+    <color name="player">#FF0000</color>
+    <color name="enemy">#001F04</color>
+    <color name="bullet">#FFFFFF</color>
+    <color name="healthBarBoarder">#A0A0A0</color>
+    <color name="healthBarHealth">#00FF00</color>
+    <color name="gameOver">#F4363C</color>
+    <color name="levelUp">#5EFC08</color>
 </resources>

@@ -10,10 +10,9 @@
         <exclude .../>
         -->
     </cloud-backup>
-    <!--
     <device-transfer>
-        <include .../>
-        <exclude .../>
+        <include.../>
+        <exclude.../>
     </device-transfer>
-    -->
+
 </data-extraction-rules>
