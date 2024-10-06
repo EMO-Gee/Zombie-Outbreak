@@ -1,6 +1,10 @@
 package com.example.zombie_outbreak;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +19,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        //Reference the button
+        Button myButton = findViewById(R.id.myButton);
+
+        //Set an onClickListener to make the button interactive
+
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                //Action to perform the button is clicked
+                Toast.makeText(MainActivity.this, "Try to Survive!!!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, MainPage.class);
+                startActivity(intent);
+            }
+
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
+
+
 }
